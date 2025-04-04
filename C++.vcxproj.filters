@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\CBasic">
+      <UniqueIdentifier>{163e041d-7bda-4f2a-99a3-711e7a4dec69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Week4-1">
+      <UniqueIdentifier>{18a22273-6e07-4764-ba58-4936b5d6b580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Week4-2">
+      <UniqueIdentifier>{c06dd5b3-515a-45d5-bac2-f98efea10392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Week5-1">
+      <UniqueIdentifier>{8136ab1f-bf7b-4dfa-b954-312ecd76d573}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Week4_Class.cpp">
+      <Filter>Resource Files\Week4-1</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_For.cpp">
+      <Filter>Resource Files\CBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_If.cpp">
+      <Filter>Resource Files\CBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_If2.cpp">
+      <Filter>Resource Files\CBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Quiz1.cpp">
+      <Filter>Resource Files\CBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Quiz2.cpp">
+      <Filter>Resource Files\CBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Quiz3.cpp">
+      <Filter>Resource Files\CBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Quiz4.cpp">
+      <Filter>Resource Files\CBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Quiz5.cpp">
+      <Filter>Resource Files\CBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Switch.cpp">
+      <Filter>Resource Files\CBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_While.cpp">
+      <Filter>Resource Files\CBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="Week4_define.cpp">
+      <Filter>Resource Files\Week4-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week4_IO.cpp">
+      <Filter>Resource Files\Week4-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week4_Singer.cpp">
+      <Filter>Resource Files\Week4-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week4_Circle.cpp">
+      <Filter>Resource Files\Week4-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week4_Circle2.cpp">
+      <Filter>Resource Files\Week4-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week4_Rectangle.cpp">
+      <Filter>Resource Files\Week4-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week4_Circle3.cpp">
+      <Filter>Resource Files\Week4-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week4_Account.cpp">
+      <Filter>Resource Files\Week4-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5_CPointer.cpp">
+      <Filter>Resource Files\Week5-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5_Someol.cpp">
+      <Filter>Resource Files\Week5-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5_Circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5_Circle_main.cpp">
+      <Filter>Resource Files\Week5-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5_ClassPointer.cpp">
+      <Filter>Resource Files\Week5-1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Week5_Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

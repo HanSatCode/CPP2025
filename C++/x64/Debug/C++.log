@@ -1,0 +1,5 @@
+﻿  Week5_ClassPointer.cpp
+C:\Users\Han\Desktop\C++\Week5_ClassPointer.cpp(23,9): error C2512: 'Circle': no appropriate default constructor available
+      C:\Users\Han\Desktop\C++\Week5_ClassPointer.cpp(4,7):
+      see declaration of 'Circle'
+  
