@@ -25,6 +25,9 @@
     <Filter Include="Resource Files\Week5-1">
       <UniqueIdentifier>{8136ab1f-bf7b-4dfa-b954-312ecd76d573}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Week5-2">
+      <UniqueIdentifier>{1ee1bee0-368d-42f2-8caf-1bf983004560}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
@@ -98,6 +101,18 @@
     </ClCompile>
     <ClCompile Include="Week5_ClassPointer.cpp">
       <Filter>Resource Files\Week5-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5_2D.cpp">
+      <Filter>Resource Files\Week5-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5_Dynamic.cpp">
+      <Filter>Resource Files\Week5-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5_DynamicCircle.cpp">
+      <Filter>Resource Files\Week5-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5_ATM.cpp">
+      <Filter>Resource Files\Week5-2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
