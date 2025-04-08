@@ -28,6 +28,9 @@
     <Filter Include="Resource Files\Week5-2">
       <UniqueIdentifier>{1ee1bee0-368d-42f2-8caf-1bf983004560}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Week6-1">
+      <UniqueIdentifier>{07895809-52be-4177-b98e-69e4108085df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
@@ -113,6 +116,18 @@
     </ClCompile>
     <ClCompile Include="Week5_ATM.cpp">
       <Filter>Resource Files\Week5-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week6_String.cpp">
+      <Filter>Resource Files\Week6-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week6_Parsing.cpp">
+      <Filter>Resource Files\Week6-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week6_Replace.cpp">
+      <Filter>Resource Files\Week6-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week6_WordCount.cpp">
+      <Filter>Resource Files\Week6-1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
