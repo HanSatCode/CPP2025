@@ -31,6 +31,9 @@
     <Filter Include="Resource Files\Week6-1">
       <UniqueIdentifier>{07895809-52be-4177-b98e-69e4108085df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\TextBook">
+      <UniqueIdentifier>{d45c85e5-7af1-40e2-b085-07b9469c22da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
@@ -129,9 +132,33 @@
     <ClCompile Include="Week6_WordCount.cpp">
       <Filter>Resource Files\Week6-1</Filter>
     </ClCompile>
+    <ClCompile Include="TB3_Exp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_ExpMain.cpp">
+      <Filter>Resource Files\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_Q1.cpp">
+      <Filter>Resource Files\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_Q2.cpp">
+      <Filter>Resource Files\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_Q3.cpp">
+      <Filter>Resource Files\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_Q8.cpp">
+      <Filter>Resource Files\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_Q9.cpp">
+      <Filter>Resource Files\TextBook</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week5_Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
