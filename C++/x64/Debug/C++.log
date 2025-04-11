@@ -1,7 +1,2 @@
-﻿  5-12.cpp
-C:\Users\Han\Documents\Dev\Repo\CPP2025\5-12.cpp(18,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Han\Documents\Dev\Repo\CPP2025\5-12.cpp(20,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Han\Documents\Dev\Repo\CPP2025\5-12.cpp(25,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Han\Documents\Dev\Repo\CPP2025\5-12.cpp(27,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Han\Documents\Dev\Repo\CPP2025\5-12.cpp(41,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C++.vcxproj -> C:\Users\Han\Documents\Dev\Repo\CPP2025\x64\Debug\C++.exe
+﻿  Week5_ATM.cpp
+  C++.vcxproj -> C:\Users\Han\Desktop\C++\x64\Debug\C++.exe

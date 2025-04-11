@@ -37,6 +37,9 @@
     <Filter Include="Resource Files\TextBook\Chapter04">
       <UniqueIdentifier>{551ea4dc-3e3f-4f2c-89be-880f917d21ec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Week6-2">
+      <UniqueIdentifier>{4d02eb73-b075-4d09-ba04-5cdbcd3a58d9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
@@ -192,12 +195,24 @@
     <ClCompile Include="5-12.cpp">
       <Filter>Resource Files\TextBook\Chapter04</Filter>
     </ClCompile>
+    <ClCompile Include="Week6_WordCountMain.cpp">
+      <Filter>Resource Files\Week6-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week6_WordCount2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Week6_ATM.cpp">
+      <Filter>Resource Files\Week6-2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week5_Circle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Exp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Week6_WordCount2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
