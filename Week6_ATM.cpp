@@ -18,8 +18,6 @@ public:
 	string getName();
 	string getCode();
 
-	int getAccount(int arr[], int size, int data);
-
 	Account(string owner, string code, int bal, string password) {
 		this->owner = owner; this->code = code; this->bal = bal; this->password = password;
 	}
@@ -99,7 +97,64 @@ int main(void) {
 		if (react != -1) {
 			cout << "[성공] " << acc[react].getName() << "님, 환영합니다!" << endl;
 			// 화면 2
+			int amnt; // 금액
+			string pwd; // 비밀번호
+			string targetAcc; // 송금 타겟
+			int targetIndex; // 송금 타겟의 인덱스
 
+			int select = 0;
+			while (select != 5) {
+				cout << "1. 입금 \t 2. 출금 \t 3. 송금 \t 4. 조회 \t 5. 종료 >> ";
+				cin >> select;
+				
+				switch (select) {
+				case 1: // 입금
+					cout << "입금액을 입력해주세요 >> "; cin >> amnt;
+					if (acc[react].deposit(amnt)) {
+						cout << "[성공] 입금이 완료되었습니다!" << endl;
+					}
+					else {
+						cout << "[실패] 오류가 발생하였습니다." << endl;
+					}
+					break;
+				case 2: // 출금
+					cout << "출금액을 입력해주세요. >> "; cin >> amnt;
+					cout << "출금을 위한 비밀번호를 입력해주세요. >> "; cin >> pwd;
+					if (acc[react].withdraw(amnt, pwd)) {
+						cout << "[성공] 출금이 완료되었습니다!" << endl;
+					}
+					else {
+						cout << "[실패] 비밀번호가 틀렸습니다." << endl;
+					}
+					break;
+				case 3: // 송금
+					cout << "송금액을 입력해주세요. >> "; cin >> amnt;
+					cout << "송금을 위한 비밀번호를 입력해주세요. >> "; cin >> pwd;
+					cout << "송금액을 받을 계좌번호를 입력해주세요. >> "; cin >> targetAcc;
+
+					targetIndex = FindAccIndex(acc, cnt, targetAcc);
+					if (targetIndex != -1) { // 계좌번호가 있는 경우
+						acc[targetIndex].deposit(amnt);
+						acc[react].withdraw(amnt, pwd);
+						cout << "[성공] 송금이 완료되었습니다!" << endl;
+					}
+					else {
+						cout << "[실패] 계좌번호나 비밀번호가 틀렸습니다. 다시 시도해주세요." << endl;
+					}
+					break;
+				case 4:
+					cout << "비밀번호를 입력해주세요 >> "; cin >> pwd;
+					if (acc[react].show(pwd) == 0) {
+						cout << "[실패] 비밀번호가 틀렸습니다. 다시 시도해주세요." << endl;
+					}
+					break;
+				case 5:
+					cout << "[종료] " << acc[react].getName() << "님의 세션을 종료합니다." << endl;
+					break;
+				default:
+					cout << "[오류] 잘못된 입력입니다. 다시 입력해주세요." << endl;
+				}
+			}
 		}
 		else {
 			cout << "[실패] " << code << "에 해당하는 계좌가 없습니다. 다시 입력해주세요." << endl;
