@@ -40,6 +40,15 @@
     <Filter Include="Resource Files\Week6-2">
       <UniqueIdentifier>{4d02eb73-b075-4d09-ba04-5cdbcd3a58d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\TextBook\Chapter03">
+      <UniqueIdentifier>{af3bc1f0-b59b-4817-8b12-51bed3a08b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TextBook\Chapter03\Theory">
+      <UniqueIdentifier>{427d37a7-a094-431b-ac00-6076bb74e09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TextBook\Chapter03\Practice">
+      <UniqueIdentifier>{123715fa-fbdd-4269-b41d-a8bc9d826c50}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
@@ -141,24 +150,6 @@
     <ClCompile Include="TB3_Exp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TB3_ExpMain.cpp">
-      <Filter>Resource Files\TextBook</Filter>
-    </ClCompile>
-    <ClCompile Include="TB3_Q1.cpp">
-      <Filter>Resource Files\TextBook</Filter>
-    </ClCompile>
-    <ClCompile Include="TB3_Q2.cpp">
-      <Filter>Resource Files\TextBook</Filter>
-    </ClCompile>
-    <ClCompile Include="TB3_Q3.cpp">
-      <Filter>Resource Files\TextBook</Filter>
-    </ClCompile>
-    <ClCompile Include="TB3_Q8.cpp">
-      <Filter>Resource Files\TextBook</Filter>
-    </ClCompile>
-    <ClCompile Include="TB3_Q9.cpp">
-      <Filter>Resource Files\TextBook</Filter>
-    </ClCompile>
     <ClCompile Include="5-1.cpp">
       <Filter>Resource Files\TextBook\Chapter04</Filter>
     </ClCompile>
@@ -204,6 +195,72 @@
     <ClCompile Include="Week6_ATM.cpp">
       <Filter>Resource Files\Week6-2</Filter>
     </ClCompile>
+    <ClCompile Include="TB3_TH_11.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_TH_13.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_TH_14.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_TH_20.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q1.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q2.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q3.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q8.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q9.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_ExpMain.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q4.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q5.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q6.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q7.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q10_1.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q10_2_Main.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q10_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q11_Main.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q12_Main.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3_PR_Q12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileName.cpp">
+      <Filter>Resource Files\TextBook\Chapter03</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week5_Circle.h">
@@ -215,5 +272,19 @@
     <ClInclude Include="Week6_WordCount2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TB3_PR_Q10_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3_PR_Q11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3_PR_Q12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TB3_TH_1.cpp">
+      <Filter>Resource Files\TextBook\Chapter03\Theory</Filter>
+    </Text>
   </ItemGroup>
 </Project>
