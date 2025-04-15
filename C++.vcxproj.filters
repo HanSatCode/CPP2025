@@ -258,9 +258,6 @@
     <ClCompile Include="TB3_PR_Q12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FileName.cpp">
-      <Filter>Resource Files\TextBook\Chapter03</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week5_Circle.h">

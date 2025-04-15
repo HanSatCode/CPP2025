@@ -134,8 +134,7 @@ int main(void) {
 
 					targetIndex = FindAccIndex(acc, cnt, targetAcc);
 					if (targetIndex != -1) { // 계좌번호가 있는 경우
-						acc[targetIndex].deposit(amnt);
-						acc[react].withdraw(amnt, pwd);
+						acc[react].transfer(&acc[targetIndex], amnt, pwd);
 						cout << "[성공] 송금이 완료되었습니다!" << endl;
 					}
 					else {
