@@ -49,6 +49,9 @@
     <Filter Include="Resource Files\TextBook\Chapter03\Practice">
       <UniqueIdentifier>{123715fa-fbdd-4269-b41d-a8bc9d826c50}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Week7-1">
+      <UniqueIdentifier>{5a120123-2a39-452b-bda8-4a77302e7758}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
@@ -257,6 +260,18 @@
     </ClCompile>
     <ClCompile Include="TB3_PR_Q12.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Week7_Circle.cpp">
+      <Filter>Resource Files\Week7-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week7_Chamjo.cpp">
+      <Filter>Resource Files\Week7-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week7_ShallowCopy.cpp">
+      <Filter>Resource Files\Week7-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Week7_Define.cpp">
+      <Filter>Resource Files\Week7-1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
