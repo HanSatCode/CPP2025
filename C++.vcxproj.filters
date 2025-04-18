@@ -52,6 +52,9 @@
     <Filter Include="Resource Files\Week7-1">
       <UniqueIdentifier>{5a120123-2a39-452b-bda8-4a77302e7758}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Week7-2">
+      <UniqueIdentifier>{2a5f66e5-315e-421e-9128-78b8557106da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
@@ -273,6 +276,18 @@
     <ClCompile Include="Week7_Define.cpp">
       <Filter>Resource Files\Week7-1</Filter>
     </ClCompile>
+    <ClCompile Include="Week7_static.cpp">
+      <Filter>Resource Files\Week7-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Week7_staticCircle.cpp">
+      <Filter>Resource Files\Week7-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Circles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Week7_Circles.cpp">
+      <Filter>Resource Files\Week7-2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week5_Circle.h">
@@ -291,6 +306,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TB3_PR_Q12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

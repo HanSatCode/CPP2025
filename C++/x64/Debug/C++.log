@@ -1,5 +1,2 @@
-﻿  Week7_Define.cpp
-C:\Users\Han\Desktop\C++\Week7_Define.cpp(8,19): error C2572: 'star': redefinition of default argument: parameter 1
-      C:\Users\Han\Desktop\C++\Week7_Define.cpp(5,6):
-      see declaration of 'star'
-  
+﻿  Circles.cpp
+  C++.vcxproj -> C:\Users\Han\Desktop\C++\x64\Debug\C++.exe
