@@ -1,3 +1,2 @@
-﻿  FileName.cpp
-FileName.obj : error LNK2019: unresolved external symbol "public: __cdecl Test::Test(void)" (??0Test@@QEAA@XZ) referenced in function main
-C:\Users\Han\Documents\Dev\Repo\CPP2025\x64\Debug\C++.exe : fatal error LNK1120: 1 unresolved externals
+﻿  TB6_PR_9.cpp
+  C++.vcxproj -> C:\Users\Han\Documents\Dev\Repo\CPP2025\x64\Debug\C++.exe

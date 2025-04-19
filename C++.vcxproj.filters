@@ -34,9 +34,6 @@
     <Filter Include="Resource Files\TextBook">
       <UniqueIdentifier>{d45c85e5-7af1-40e2-b085-07b9469c22da}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\TextBook\Chapter04">
-      <UniqueIdentifier>{551ea4dc-3e3f-4f2c-89be-880f917d21ec}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files\Week6-2">
       <UniqueIdentifier>{4d02eb73-b075-4d09-ba04-5cdbcd3a58d9}</UniqueIdentifier>
     </Filter>
@@ -49,40 +46,28 @@
     <Filter Include="Resource Files\TextBook\Chapter03\Practice">
       <UniqueIdentifier>{123715fa-fbdd-4269-b41d-a8bc9d826c50}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\CBasic\Offline">
+      <UniqueIdentifier>{1367f4c9-a3b5-4c08-a10d-3c42389c7813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CBasic\CLang_Basic_1">
+      <UniqueIdentifier>{924cabe6-a94b-4de2-9267-3827d7764679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TextBook\Chapter06">
+      <UniqueIdentifier>{d6fd1399-840c-48eb-bc56-9c2af940e1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TextBook\Chapter05">
+      <UniqueIdentifier>{551ea4dc-3e3f-4f2c-89be-880f917d21ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TextBook\Chapter06\Theory">
+      <UniqueIdentifier>{3d8663c3-c7bd-4b25-b7a5-71c63568931c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TextBook\Chapter06\Practice">
+      <UniqueIdentifier>{1c41c201-8334-4ce7-836a-5c01520a320e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
       <Filter>Resource Files\Week4-1</Filter>
-    </ClCompile>
-    <ClCompile Include="CBasic_For.cpp">
-      <Filter>Resource Files\CBasic</Filter>
-    </ClCompile>
-    <ClCompile Include="CBasic_If.cpp">
-      <Filter>Resource Files\CBasic</Filter>
-    </ClCompile>
-    <ClCompile Include="CBasic_If2.cpp">
-      <Filter>Resource Files\CBasic</Filter>
-    </ClCompile>
-    <ClCompile Include="CBasic_Quiz1.cpp">
-      <Filter>Resource Files\CBasic</Filter>
-    </ClCompile>
-    <ClCompile Include="CBasic_Quiz2.cpp">
-      <Filter>Resource Files\CBasic</Filter>
-    </ClCompile>
-    <ClCompile Include="CBasic_Quiz3.cpp">
-      <Filter>Resource Files\CBasic</Filter>
-    </ClCompile>
-    <ClCompile Include="CBasic_Quiz4.cpp">
-      <Filter>Resource Files\CBasic</Filter>
-    </ClCompile>
-    <ClCompile Include="CBasic_Quiz5.cpp">
-      <Filter>Resource Files\CBasic</Filter>
-    </ClCompile>
-    <ClCompile Include="CBasic_Switch.cpp">
-      <Filter>Resource Files\CBasic</Filter>
-    </ClCompile>
-    <ClCompile Include="CBasic_While.cpp">
-      <Filter>Resource Files\CBasic</Filter>
     </ClCompile>
     <ClCompile Include="Week4_define.cpp">
       <Filter>Resource Files\Week4-1</Filter>
@@ -151,40 +136,40 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="5-1.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="5-2.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="5-3.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="5-4.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="5-5.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="5-6.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="5-7.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="5-8.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="5-9.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="5-10.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="5-11.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="5-12.cpp">
-      <Filter>Resource Files\TextBook\Chapter04</Filter>
+      <Filter>Resource Files\TextBook\Chapter05</Filter>
     </ClCompile>
     <ClCompile Include="Week6_WordCountMain.cpp">
       <Filter>Resource Files\Week6-2</Filter>
@@ -258,8 +243,119 @@
     <ClCompile Include="TB3_PR_Q12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FileName.cpp">
-      <Filter>Resource Files\TextBook\Chapter03</Filter>
+    <ClCompile Include="CBasic_For.cpp">
+      <Filter>Resource Files\CBasic\Offline</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_If.cpp">
+      <Filter>Resource Files\CBasic\Offline</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_If2.cpp">
+      <Filter>Resource Files\CBasic\Offline</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Quiz1.cpp">
+      <Filter>Resource Files\CBasic\Offline</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Quiz2.cpp">
+      <Filter>Resource Files\CBasic\Offline</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Quiz3.cpp">
+      <Filter>Resource Files\CBasic\Offline</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Quiz4.cpp">
+      <Filter>Resource Files\CBasic\Offline</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Quiz5.cpp">
+      <Filter>Resource Files\CBasic\Offline</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Switch.cpp">
+      <Filter>Resource Files\CBasic\Offline</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_While.cpp">
+      <Filter>Resource Files\CBasic\Offline</Filter>
+    </ClCompile>
+    <ClCompile Include="1_Quiz1.cpp">
+      <Filter>Resource Files\CBasic\CLang_Basic_1</Filter>
+    </ClCompile>
+    <ClCompile Include="1_Quiz2.cpp">
+      <Filter>Resource Files\CBasic\CLang_Basic_1</Filter>
+    </ClCompile>
+    <ClCompile Include="1_Quiz3.cpp">
+      <Filter>Resource Files\CBasic\CLang_Basic_1</Filter>
+    </ClCompile>
+    <ClCompile Include="1_Quiz4.cpp">
+      <Filter>Resource Files\CBasic\CLang_Basic_1</Filter>
+    </ClCompile>
+    <ClCompile Include="1_Quiz5.cpp">
+      <Filter>Resource Files\CBasic\CLang_Basic_1</Filter>
+    </ClCompile>
+    <ClCompile Include="1_Quiz6.cpp">
+      <Filter>Resource Files\CBasic\CLang_Basic_1</Filter>
+    </ClCompile>
+    <ClCompile Include="1_Quiz7.cpp">
+      <Filter>Resource Files\CBasic\CLang_Basic_1</Filter>
+    </ClCompile>
+    <ClCompile Include="6-1.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="6-2.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="6-3.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="6-4.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="6-5.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="6-6.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="6-7.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="6-8.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="6-9.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="6-10.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="6-11.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="TB6_PR_TF.txt">
+      <Filter>Resource Files\TextBook\Chapter06\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB6_PR_1.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB6_PR_2.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB6_PR_3.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB6_PR_4.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB6_PR_5.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB6_PR_6.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB6_PR_7.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB6_PR_8.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="TB6_PR_9.cpp">
+      <Filter>Resource Files\TextBook\Chapter06\Practice</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
