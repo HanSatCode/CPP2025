@@ -2,11 +2,14 @@
 using namespace std;
 
 class Tower {
-	int height;
+	int meter;
 public:
-	Tower() { height = 1; }
-	Tower(int height) { this->height = height; }
-	int getHeight() { return height; }
+	Tower() { meter = 1; }
+	Tower(int m) { meter = m; }
+
+	int getHeight() {
+		return meter;
+	}
 };
 
 int main(void) {
