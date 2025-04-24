@@ -1,0 +1,46 @@
+1. 4
+2. 1
+3. 주소에 의한 호출
+4. 같다(둘 다 주소에 의한 호출) / 다르다 (주소에 의한 호출과 참조에 의한 호출)
+5. (1) 5 / (2) 25
+6. 1 4 9
+7. 2
+8. 2
+9. 1
+10. (1) {0, 2, 4, 6, 8, 10, 12, 14, 16, 100}
+	(2) {0, 4, 6, 8, 10, 12, 14, 16, 18, 18}
+	(3) {0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+	(4) {0, 2, 4, 6, 0, 10, 12, 14, 16, 18}
+11. 값에 의한 호출이기 때문.
+	void copy(int &dest, int src) {
+		dest = src;
+	}
+12. x = 1, y = 2 - 값에 의한 호출 / x = 1, y = 100 - 참조에 의한 호출
+13. MyClass() / MyClass(const MyClass&)
+14. 2
+15. (1) ~MyClass() {
+			delete [] element;
+		}
+	(2) MyClass(const MyClass& myClass) {
+			this->size = myClass.size;
+			this->element = myClass.element;		
+		}
+	(3)	MyClass(const MyClass& myClass) {
+			this->size = myClass.size;
+			this->element = new int[size];
+			for(int i = 0;  i < size; i++) {
+				this->element[i] = myClass.element[i];
+			}
+		}
+16. 1
+17. Student(const Student& student) {
+		this->name = student.name;
+		this->id = student.id;
+		this->grade = student.grade;
+	}
+18. Student(const Student& student) {
+		this->pName = student.pName;
+		this->pId = student.pId;
+		this->grade = student.grade;
+	}
+19. element라는 자원을 공유하게 된다.
