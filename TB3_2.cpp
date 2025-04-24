@@ -14,40 +14,20 @@ public:
 	}
 	Date(string ymd) {
 		int startIndex = 0;
-		int findIndex = 0;
-		bool first = true;
-		while (true) {
-			findIndex = ymd.find('/', startIndex);
-			if (findIndex == -1) {
-				this->day = stoi(ymd.substr(startIndex));
-				break;
-			}
-			int len = findIndex - startIndex;
-			if (first) {
-				this->year = stoi(ymd.substr(startIndex, len));
-				first = false;
-			}
-			else {
-				this->month = stoi(ymd.substr(startIndex, len));
-			}
-			startIndex = findIndex + 1;
+		int result[3];
+		for(int i = 0; i < 3; i++) {
+			int findIndex = ymd.find('/', startIndex);
+			result[i] = stoi(ymd.substr(startIndex, findIndex - startIndex));
+			startIndex = ++findIndex;
 		}
+		this->year = result[0]; this->month = result[1]; this->day = result[2];
 	}
 	void show() {
 		cout << year << "³â" << month << "¿ù" << day << "ÀÏ" << endl;
 	}
-
-	int getYear() {
-		return year;
-	}
-
-	int getMonth() {
-		return month;
-	}
-
-	int getDay() {
-		return day;
-	}
+	int getYear() { return year; }
+	int getMonth() { return month; }
+	int getDay() { return day; }
 };
 
 int main(void) {
