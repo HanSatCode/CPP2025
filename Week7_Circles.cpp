@@ -2,7 +2,7 @@
 #include "Circles.h"
 using namespace std;
 
-int Circles::numOfCircles = 0;
+//int Circles::numOfCircles = 0;
 
 int main(void) {
 	Circles* p = new Circles[10];

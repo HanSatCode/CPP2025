@@ -288,6 +288,12 @@
     <ClCompile Include="Week7_Circles.cpp">
       <Filter>Resource Files\Week7-2</Filter>
     </ClCompile>
+    <ClCompile Include="Week7_ATMAnswer.cpp">
+      <Filter>Resource Files\Week7-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Resource Files\Week7-2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week5_Circle.h">
