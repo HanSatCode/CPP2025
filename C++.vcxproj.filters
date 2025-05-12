@@ -339,6 +339,12 @@
     <ClCompile Include="9-4.cpp">
       <Filter>Resource Files\Final\Week10-1 %28Virtual Define%29</Filter>
     </ClCompile>
+    <ClCompile Include="7-2.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28Friends%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-3.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28Friends%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week5_Circle.h">
