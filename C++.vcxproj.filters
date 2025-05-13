@@ -61,14 +61,17 @@
     <Filter Include="Resource Files\Final">
       <UniqueIdentifier>{13008b46-965a-4a15-943c-f6c932f8e985}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Final\Week9-1 %28Friends%29">
-      <UniqueIdentifier>{3f48b700-360e-42b3-aa71-fd20f8ca57ed}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files\Final\Week9-2 %28Parent%29">
       <UniqueIdentifier>{3772bfc3-c028-419b-8477-506a0398f6e3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files\Final\Week10-1 %28Virtual Define%29">
       <UniqueIdentifier>{5f2adb31-5d34-4ddd-8614-c74d00cf1a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Final\Week10-2 %28Virtual%29">
+      <UniqueIdentifier>{fa23bd19-3aab-4186-a79b-bf17c7777ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Final\Week9-1 %28friend, operator%29">
+      <UniqueIdentifier>{3f48b700-360e-42b3-aa71-fd20f8ca57ed}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -306,20 +309,8 @@
     <ClCompile Include="Week7_ATMAnswer.cpp">
       <Filter>Resource Files\Mid\Week7-2</Filter>
     </ClCompile>
-    <ClCompile Include="7-1.cpp">
-      <Filter>Resource Files\Final\Week9-1 %28Friends%29</Filter>
-    </ClCompile>
-    <ClCompile Include="7-4.cpp">
-      <Filter>Resource Files\Final\Week9-1 %28Friends%29</Filter>
-    </ClCompile>
-    <ClCompile Include="7-8\7-8,10.cpp">
-      <Filter>Resource Files\Final\Week9-1 %28Friends%29</Filter>
-    </ClCompile>
-    <ClCompile Include="7-11.cpp">
-      <Filter>Resource Files\Final\Week9-1 %28Friends%29</Filter>
-    </ClCompile>
     <ClCompile Include="Assignment.cpp">
-      <Filter>Resource Files\Final\Week9-1 %28Friends%29</Filter>
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
     </ClCompile>
     <ClCompile Include="8-1.cpp">
       <Filter>Resource Files\Final\Week9-2 %28Parent%29</Filter>
@@ -339,11 +330,50 @@
     <ClCompile Include="9-4.cpp">
       <Filter>Resource Files\Final\Week10-1 %28Virtual Define%29</Filter>
     </ClCompile>
-    <ClCompile Include="7-2.cpp">
-      <Filter>Resource Files\Final\Week9-1 %28Friends%29</Filter>
+    <ClCompile Include="7-5.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
     </ClCompile>
-    <ClCompile Include="7-3.cpp">
-      <Filter>Resource Files\Final\Week9-1 %28Friends%29</Filter>
+    <ClCompile Include="7-6.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-7.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Resource Files\Final\Week10-2 %28Virtual%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-9.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-12.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-13.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-14.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-1 ☆.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-2 ☆.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-3 ☆.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-4 ☆.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-8\7-8 ☆.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-10 ☆.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-11 ☆.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
