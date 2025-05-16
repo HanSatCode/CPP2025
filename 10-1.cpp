@@ -4,7 +4,6 @@ using namespace std;
 class Circle {
 	int radius;
 public:
-	Circle() { }
 	Circle(int radius) { this->radius = radius; }
 	int getRadius() { return radius; }
 };
