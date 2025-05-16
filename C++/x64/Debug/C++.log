@@ -1,8 +1,2 @@
-<<<<<<< HEAD
 ﻿  10-6.cpp
   C++.vcxproj -> C:\Users\Han\Desktop\CPP\x64\Debug\C++.exe
-=======
-﻿  8-1.cpp
-C:\Users\Han\Desktop\Dev\Repo\CPP2025\8-1.cpp(30,8): warning C4101: 'p': unreferenced local variable
-  C++.vcxproj -> C:\Users\Han\Desktop\Dev\Repo\CPP2025\x64\Debug\C++.exe
->>>>>>> f00fd3b9bdf025db36e1a80bb67bb087317397de
