@@ -73,6 +73,9 @@
     <Filter Include="Resource Files\Final\Week9-1 %28friend, operator%29">
       <UniqueIdentifier>{3f48b700-360e-42b3-aa71-fd20f8ca57ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Final\Week11-1 %28Generic%29">
+      <UniqueIdentifier>{801b2f8d-9707-4b80-a62e-d19ec38fa968}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
@@ -374,6 +377,12 @@
     </ClCompile>
     <ClCompile Include="7-11 ☆.cpp">
       <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-1.cpp">
+      <Filter>Resource Files\Final\Week11-1 %28Generic%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-6.cpp">
+      <Filter>Resource Files\Final\Week11-1 %28Generic%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
