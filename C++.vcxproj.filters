@@ -73,7 +73,7 @@
     <Filter Include="Resource Files\Final\Week9-1 %28friend, operator%29">
       <UniqueIdentifier>{3f48b700-360e-42b3-aa71-fd20f8ca57ed}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Final\Week11-1 %28Generic%29">
+    <Filter Include="Resource Files\Final\Week11-1 %28Generic, STL%29">
       <UniqueIdentifier>{801b2f8d-9707-4b80-a62e-d19ec38fa968}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -315,13 +315,13 @@
     <ClCompile Include="Assignment.cpp">
       <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
     </ClCompile>
-    <ClCompile Include="8-1.cpp">
+    <ClCompile Include="8-1 ☆.cpp">
       <Filter>Resource Files\Final\Week9-2 %28Parent%29</Filter>
     </ClCompile>
-    <ClCompile Include="Upcasting.cpp">
+    <ClCompile Include="UpCasting ☆.cpp">
       <Filter>Resource Files\Final\Week9-2 %28Parent%29</Filter>
     </ClCompile>
-    <ClCompile Include="8-3.cpp">
+    <ClCompile Include="8-3 ☆.cpp">
       <Filter>Resource Files\Final\Week9-2 %28Parent%29</Filter>
     </ClCompile>
     <ClCompile Include="9-2.cpp">
@@ -379,10 +379,28 @@
       <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
     </ClCompile>
     <ClCompile Include="10-1.cpp">
-      <Filter>Resource Files\Final\Week11-1 %28Generic%29</Filter>
+      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
     </ClCompile>
     <ClCompile Include="10-6.cpp">
-      <Filter>Resource Files\Final\Week11-1 %28Generic%29</Filter>
+      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-9.cpp">
+      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-10.cpp">
+      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-12.cpp">
+      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice.cpp">
+      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="8-2.cpp">
+      <Filter>Resource Files\Final\Week9-2 %28Parent%29</Filter>
+    </ClCompile>
+    <ClCompile Include="8-7.cpp">
+      <Filter>Resource Files\Final\Week9-2 %28Parent%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
