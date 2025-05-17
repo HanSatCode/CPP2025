@@ -363,19 +363,19 @@
     <ClCompile Include="7-11 ☆.cpp">
       <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
     </ClCompile>
-    <ClCompile Include="10-1.cpp">
+    <ClCompile Include="10-1 ☆.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
-    <ClCompile Include="10-6.cpp">
+    <ClCompile Include="10-6 ☆.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
-    <ClCompile Include="10-9.cpp">
+    <ClCompile Include="10-9 ☆.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
-    <ClCompile Include="10-10.cpp">
+    <ClCompile Include="10-11 ☆.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
-    <ClCompile Include="10-12.cpp">
+    <ClCompile Include="10-12 ☆.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
     <ClCompile Include="Practice.cpp">
@@ -410,6 +410,24 @@
     </ClCompile>
     <ClCompile Include="Circles.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10-2.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-3.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-4.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-5.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-8.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-10.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
