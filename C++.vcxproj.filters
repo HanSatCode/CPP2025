@@ -402,6 +402,15 @@
     <ClCompile Include="8-7.cpp">
       <Filter>Resource Files\Final\Week9-2 %28Parent%29</Filter>
     </ClCompile>
+    <ClCompile Include="WordCount.cpp">
+      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Lotto.cpp">
+      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week5_Circle.h">
