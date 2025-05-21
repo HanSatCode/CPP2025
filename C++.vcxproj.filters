@@ -64,16 +64,13 @@
     <Filter Include="Resource Files\Final\Week9-2 %28Parent%29">
       <UniqueIdentifier>{3772bfc3-c028-419b-8477-506a0398f6e3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Final\Week10-1 %28Virtual Define%29">
-      <UniqueIdentifier>{5f2adb31-5d34-4ddd-8614-c74d00cf1a67}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\Final\Week10-2 %28Virtual%29">
-      <UniqueIdentifier>{fa23bd19-3aab-4186-a79b-bf17c7777ca8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files\Final\Week9-1 %28friend, operator%29">
       <UniqueIdentifier>{3f48b700-360e-42b3-aa71-fd20f8ca57ed}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Final\Week11-1 %28Generic, STL%29">
+    <Filter Include="Resource Files\Final\Week10 %28Virtual Define%29">
+      <UniqueIdentifier>{5f2adb31-5d34-4ddd-8614-c74d00cf1a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Final\Week11 %28Generic, STL%29">
       <UniqueIdentifier>{801b2f8d-9707-4b80-a62e-d19ec38fa968}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -324,14 +321,8 @@
     <ClCompile Include="8-3 ☆.cpp">
       <Filter>Resource Files\Final\Week9-2 %28Parent%29</Filter>
     </ClCompile>
-    <ClCompile Include="9-2.cpp">
-      <Filter>Resource Files\Final\Week10-1 %28Virtual Define%29</Filter>
-    </ClCompile>
-    <ClCompile Include="Area.cpp">
-      <Filter>Resource Files\Final\Week10-1 %28Virtual Define%29</Filter>
-    </ClCompile>
     <ClCompile Include="9-4.cpp">
-      <Filter>Resource Files\Final\Week10-1 %28Virtual Define%29</Filter>
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29</Filter>
     </ClCompile>
     <ClCompile Include="7-5.cpp">
       <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
@@ -341,9 +332,6 @@
     </ClCompile>
     <ClCompile Include="7-7.cpp">
       <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Resource Files\Final\Week10-2 %28Virtual%29</Filter>
     </ClCompile>
     <ClCompile Include="7-9.cpp">
       <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
@@ -378,23 +366,11 @@
     <ClCompile Include="7-11 ☆.cpp">
       <Filter>Resource Files\Final\Week9-1 %28friend, operator%29</Filter>
     </ClCompile>
-    <ClCompile Include="10-1.cpp">
-      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
-    </ClCompile>
-    <ClCompile Include="10-6.cpp">
-      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
-    </ClCompile>
-    <ClCompile Include="10-9.cpp">
-      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
-    </ClCompile>
     <ClCompile Include="10-10.cpp">
-      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
-    </ClCompile>
-    <ClCompile Include="10-12.cpp">
-      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
     <ClCompile Include="Practice.cpp">
-      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
     <ClCompile Include="8-2.cpp">
       <Filter>Resource Files\Final\Week9-2 %28Parent%29</Filter>
@@ -403,13 +379,64 @@
       <Filter>Resource Files\Final\Week9-2 %28Parent%29</Filter>
     </ClCompile>
     <ClCompile Include="WordCount.cpp">
-      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
     <ClCompile Include="Stack.cpp">
-      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
     <ClCompile Include="Lotto.cpp">
-      <Filter>Resource Files\Final\Week11-1 %28Generic, STL%29</Filter>
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractClass ☆.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualFunction ☆.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game ☆.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="9-1.cpp">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29</Filter>
+    </ClCompile>
+    <ClCompile Include="9-2 ☆.cpp">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29</Filter>
+    </ClCompile>
+    <ClCompile Include="9-3.cpp">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29</Filter>
+    </ClCompile>
+    <ClCompile Include="9-6.cpp">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-1 ☆.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-2.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-3.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-4.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-5.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-6 ☆.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-8.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-9 ☆.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-11 ☆.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-12 ☆.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
