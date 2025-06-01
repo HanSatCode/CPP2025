@@ -76,6 +76,12 @@
     <Filter Include="Resource Files\Final\Week11 %28Generic, STL%29\STL">
       <UniqueIdentifier>{d07bc06b-4407-4589-bc93-2d4247c92f25}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Final\Week13 %28IO%29">
+      <UniqueIdentifier>{924a743a-5714-4d3d-917d-a3e7b50a6487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Final\Week13 %28IO%29\Assignment">
+      <UniqueIdentifier>{e80c54da-655c-4dcc-844c-4f924539180f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
@@ -471,6 +477,24 @@
     <ClCompile Include="Week11_Practice.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29\STL</Filter>
     </ClCompile>
+    <ClCompile Include="12-1.cpp">
+      <Filter>Resource Files\Final\Week13 %28IO%29</Filter>
+    </ClCompile>
+    <ClCompile Include="12-2.cpp">
+      <Filter>Resource Files\Final\Week13 %28IO%29</Filter>
+    </ClCompile>
+    <ClCompile Include="12-6.cpp">
+      <Filter>Resource Files\Final\Week13 %28IO%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Week13_Practice.cpp">
+      <Filter>Resource Files\Final\Week13 %28IO%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment04_admin.cpp">
+      <Filter>Resource Files\Final\Week13 %28IO%29\Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment04_user.cpp">
+      <Filter>Resource Files\Final\Week13 %28IO%29\Assignment</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week5_Circle.h">
@@ -499,5 +523,6 @@
     <Text Include="TB3_TH_1.cpp">
       <Filter>Resource Files\Mid\TextBook\Chapter03\Theory</Filter>
     </Text>
+    <Text Include="words.txt" />
   </ItemGroup>
 </Project>

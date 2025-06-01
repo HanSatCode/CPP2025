@@ -1,2 +1,4 @@
-﻿  Week11_Practice.cpp
+﻿  Assignment04_admin.cpp
+C:\Users\Han\Desktop\CPP\Assignment04_admin.cpp(16,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Han\Desktop\CPP\Assignment04_admin.cpp(58,1): warning C4715: 'filewrite': not all control paths return a value
   C++.vcxproj -> C:\Users\Han\Desktop\CPP\x64\Debug\C++.exe
