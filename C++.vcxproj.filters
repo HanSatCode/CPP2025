@@ -82,6 +82,9 @@
     <Filter Include="Resource Files\Final\Week13 %28IO%29\Assignment">
       <UniqueIdentifier>{e80c54da-655c-4dcc-844c-4f924539180f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Final\Week9-1 %28friend, operator%29\TextBook">
+      <UniqueIdentifier>{3e898052-6f2a-4093-8361-2dd5f092d474}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
@@ -477,13 +480,13 @@
     <ClCompile Include="Week11_Practice.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29\STL</Filter>
     </ClCompile>
-    <ClCompile Include="12-1.cpp">
+    <ClCompile Include="12-1 ☆.cpp">
       <Filter>Resource Files\Final\Week13 %28IO%29</Filter>
     </ClCompile>
-    <ClCompile Include="12-2.cpp">
+    <ClCompile Include="12-2 ☆.cpp">
       <Filter>Resource Files\Final\Week13 %28IO%29</Filter>
     </ClCompile>
-    <ClCompile Include="12-6.cpp">
+    <ClCompile Include="12-6 ☆.cpp">
       <Filter>Resource Files\Final\Week13 %28IO%29</Filter>
     </ClCompile>
     <ClCompile Include="Week13_Practice.cpp">
@@ -494,6 +497,36 @@
     </ClCompile>
     <ClCompile Include="Assignment04_user.cpp">
       <Filter>Resource Files\Final\Week13 %28IO%29\Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="12-5.cpp">
+      <Filter>Resource Files\Final\Week13 %28IO%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7-Practice01.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="7-Practice02.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="7-Practice03.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="7-Practice04.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="7-Practice05.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="7-Practice06.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="7-Practice07.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="7-Practice08.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="7-Practice09.cpp">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -524,5 +557,8 @@
       <Filter>Resource Files\Mid\TextBook\Chapter03\Theory</Filter>
     </Text>
     <Text Include="words.txt" />
+    <Text Include="7-Theory.txt">
+      <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
+    </Text>
   </ItemGroup>
 </Project>

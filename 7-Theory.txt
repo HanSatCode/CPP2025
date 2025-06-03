@@ -1,0 +1,57 @@
+1. 1
+2. 4
+3. friend SampleManager;
+4. friend bool SampleManager::compare(Sample &a, Sample &b);
+5. isValid에서 객체 s의 id에 접근할 수 없음.
+class Student {
+	int id;
+public:
+	Student(int id) {this->id = id;}
+	friend bool isValid(Student s);
+}
+6. private 멤버인 id와 name에 접근할 수 없음.
+class Student;
+class Professor;
+class Student {
+	int id;
+public:
+	Student(int id) { this->id = id; }
+	friend void show(Student s, Professor p);
+}
+class Professor {
+	string name;
+public:
+	Professor(string name) { this->name = name; }
+	friend void show(Student s, Professor p);
+}
+void show(Student s, Professor p) {
+	cout << s.id << p.name;
+}
+7. private 멤버인 price에 접근할 수 없음.
+class Food {
+	int price;
+	string name;
+public:
+	Food(string name, int price);
+	void buy();
+	friend void Person::shopping(Food food);
+}
+class Person {
+	int id;
+public:
+	void shopping(Food food) {
+		if(food.price < 10000)
+			food.buy()
+	}
+	int get() { return id; }
+}
+☆ 8. 4 (프랜드 선언 위치는 접근 범위 지정자에 상관없다.)
+9. friend 선언이 필요없다.
+10. x가 public이기 때문에 필요가 없다.
+11. 연산자 중복
+12. 밥 + 반찬 = 식사
+13. 4
+14. 4
+15. 3
+16. 3
+17. X
