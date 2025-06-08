@@ -85,6 +85,12 @@
     <Filter Include="Resource Files\Final\Week9-1 %28friend, operator%29\TextBook">
       <UniqueIdentifier>{3e898052-6f2a-4093-8361-2dd5f092d474}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Final\Week9-2 %28Parent%29\TextBook">
+      <UniqueIdentifier>{764894b7-2a69-47ca-8590-38e7ab121cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Final\Week10 %28Virtual Define%29\TextBook">
+      <UniqueIdentifier>{d8f7eaeb-9f53-40e5-8564-4719d45803fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Week4_Class.cpp">
@@ -528,6 +534,42 @@
     <ClCompile Include="7-Practice09.cpp">
       <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
     </ClCompile>
+    <ClCompile Include="08-Theory.txt">
+      <Filter>Resource Files\Final\Week9-2 %28Parent%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="9-7.cpp">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29</Filter>
+    </ClCompile>
+    <ClCompile Include="8-Practice01.cpp">
+      <Filter>Resource Files\Final\Week9-2 %28Parent%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="8-Practice02.cpp">
+      <Filter>Resource Files\Final\Week9-2 %28Parent%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="8-Practice03.cpp">
+      <Filter>Resource Files\Final\Week9-2 %28Parent%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="8-Practice04.cpp">
+      <Filter>Resource Files\Final\Week9-2 %28Parent%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="9-Practice01.cpp">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="9-Practice02.cpp">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="9-Practice03.cpp">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="9-Practice04.cpp">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="9-Practice05.cpp">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="9-Practice07.cpp">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29\TextBook</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week5_Circle.h">
@@ -559,6 +601,9 @@
     <Text Include="words.txt" />
     <Text Include="7-Theory.txt">
       <Filter>Resource Files\Final\Week9-1 %28friend, operator%29\TextBook</Filter>
+    </Text>
+    <Text Include="09-Theory.txt">
+      <Filter>Resource Files\Final\Week10 %28Virtual Define%29\TextBook</Filter>
     </Text>
   </ItemGroup>
 </Project>
