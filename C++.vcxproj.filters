@@ -73,9 +73,6 @@
     <Filter Include="Resource Files\Final\Week11 %28Generic, STL%29">
       <UniqueIdentifier>{801b2f8d-9707-4b80-a62e-d19ec38fa968}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Final\Week11 %28Generic, STL%29\STL">
-      <UniqueIdentifier>{d07bc06b-4407-4589-bc93-2d4247c92f25}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files\Final\Week13 %28IO%29">
       <UniqueIdentifier>{924a743a-5714-4d3d-917d-a3e7b50a6487}</UniqueIdentifier>
     </Filter>
@@ -90,6 +87,9 @@
     </Filter>
     <Filter Include="Resource Files\Final\Week10 %28Virtual Define%29\TextBook">
       <UniqueIdentifier>{d8f7eaeb-9f53-40e5-8564-4719d45803fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Final\Week11 %28Generic, STL%29\ExtraAlgorithm">
+      <UniqueIdentifier>{d07bc06b-4407-4589-bc93-2d4247c92f25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -387,7 +387,7 @@
     <ClCompile Include="10-10.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
-    <ClCompile Include="Practice.cpp">
+    <ClCompile Include="10-Practice_Store.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
     <ClCompile Include="8-2.cpp">
@@ -396,13 +396,13 @@
     <ClCompile Include="8-7.cpp">
       <Filter>Resource Files\Final\Week9-2 %28Parent%29</Filter>
     </ClCompile>
-    <ClCompile Include="WordCount.cpp">
+    <ClCompile Include="10-Practice_WordCount.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
-    <ClCompile Include="Stack.cpp">
+    <ClCompile Include="10-Practice_Stack.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
-    <ClCompile Include="Lotto.cpp">
+    <ClCompile Include="10-Practice_Lotto.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
     <ClCompile Include="AbstractClass ☆.cpp">
@@ -468,23 +468,14 @@
     <ClCompile Include="10-18.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
     </ClCompile>
-    <ClCompile Include="10-19.cpp">
-      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
-    </ClCompile>
-    <ClCompile Include="10-13.cpp">
-      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\STL</Filter>
-    </ClCompile>
     <ClCompile Include="Find.cpp">
-      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\STL</Filter>
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\ExtraAlgorithm</Filter>
     </ClCompile>
     <ClCompile Include="Find_if.cpp">
-      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\STL</Filter>
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\ExtraAlgorithm</Filter>
     </ClCompile>
     <ClCompile Include="Count.cpp">
-      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\STL</Filter>
-    </ClCompile>
-    <ClCompile Include="Week11_Practice.cpp">
-      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\STL</Filter>
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\ExtraAlgorithm</Filter>
     </ClCompile>
     <ClCompile Include="12-1 ☆.cpp">
       <Filter>Resource Files\Final\Week13 %28IO%29</Filter>
@@ -569,6 +560,27 @@
     </ClCompile>
     <ClCompile Include="9-Practice07.cpp">
       <Filter>Resource Files\Final\Week10 %28Virtual Define%29\TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="10-13.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10-Practice_Circle.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Count_if.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\ExtraAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Copy.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\ExtraAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Copy_if.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\ExtraAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\ExtraAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Swap_ranges.cpp">
+      <Filter>Resource Files\Final\Week11 %28Generic, STL%29\ExtraAlgorithm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
