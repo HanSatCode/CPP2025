@@ -1,0 +1,69 @@
+1. 3
+2. 3
+3. 2
+4. 2
+5.
+template <class T>
+bool equal(T a, T b) {
+	if (a == b) return true;
+	else return false;
+}
+6.
+template <class T>
+void insert(T a, T b, int index) {
+	*(b + index) = a;
+}
+
+7.
+template <class T> int max(T x, T y) {
+	if (x > y) return x;
+	else return y;
+}
+
+8.
+template <class TYPE>
+bool equals(TYPE x, TYPE y) {
+	if (x == y) return true;
+	else return false;
+}
+
+10. (1) °øÁ¸ °¡´É
+(2) 3.14
+(3) sepcial 100
+
+11. 3
+12. (1) T *p; / int size;
+(2)
+template <class T>
+Container<T>::Container(int n) {
+	p = new T[n];
+	size = n;
+}
+(3)
+template <class T>
+Container<T>::~Container() {
+	delete []p;
+}
+
+(4)
+template <class T>
+T Container<T>::get(int index) { return p[index]; }
+
+(5) Container<char> c(26);
+(6)
+for (int i = 0 ; i < 26; i++) {
+	c.set(i, (char) 65 + i);
+}
+for (int i = 25; i > -1; i--) {
+	cout << c.get(i);
+}
+
+13. 1
+14. #include <vector> #include <list> #include <algorithm> #include <algorithm>
+15. vector<double> v;
+for(auto it = v.begin(); it != v.end(); it++){
+	cout << *it << endl;
+}
+16. vector<double>::iterator it;
+17. #include <map>
+18. º¤ÅÍ / ¸Ê
