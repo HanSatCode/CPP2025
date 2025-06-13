@@ -600,10 +600,10 @@
     <ClCompile Include="13-3.cpp">
       <Filter>Resource Files\Final\Week15 %28Except%29</Filter>
     </ClCompile>
-    <ClCompile Include="13-4.cpp">
+    <ClCompile Include="13-4 ☆.cpp">
       <Filter>Resource Files\Final\Week15 %28Except%29</Filter>
     </ClCompile>
-    <ClCompile Include="13-5.cpp">
+    <ClCompile Include="13-5 ☆.cpp">
       <Filter>Resource Files\Final\Week15 %28Except%29</Filter>
     </ClCompile>
     <ClCompile Include="13-6.cpp">
@@ -645,6 +645,24 @@
     <ClCompile Include="10-Practice13.cpp">
       <Filter>Resource Files\Final\Week11 %28Generic, STL%29\TextBook</Filter>
     </ClCompile>
+    <ClCompile Include="12-7 ☆.cpp">
+      <Filter>Resource Files\Final\Week13 %28IO%29</Filter>
+    </ClCompile>
+    <ClCompile Include="12-12 ☆.cpp">
+      <Filter>Resource Files\Final\Week13 %28IO%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="13-7 ☆☆☆.cpp">
+      <Filter>Resource Files\Final\Week15 %28Except%29</Filter>
+    </ClCompile>
+    <ClCompile Include="13-Practice_Rational.cpp">
+      <Filter>Resource Files\Final\Week15 %28Except%29</Filter>
+    </ClCompile>
+    <ClCompile Include="13-Practice_WordCnt.cpp">
+      <Filter>Resource Files\Final\Week15 %28Except%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week5_Circle.h">
@@ -668,6 +686,9 @@
     <ClInclude Include="Circles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MyStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="TB3_TH_1.cpp">
@@ -680,6 +701,8 @@
     <Text Include="09-Theory.txt">
       <Filter>Resource Files\Final\Week10 %28Virtual Define%29\TextBook</Filter>
     </Text>
-    <Text Include="13-Theory.txt" />
+    <Text Include="13-Theory.txt">
+      <Filter>Resource Files\Final\Week15 %28Except%29\TextBook</Filter>
+    </Text>
   </ItemGroup>
 </Project>
