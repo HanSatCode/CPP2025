@@ -14,6 +14,7 @@ public:
 		this->numer = numer / gcd;
 		this->denom = denom / gcd;
 	}
+
 	int getGCD(int a, int b) { // 최대공약수 구하기 (유클리드 호제법)
 		while (b) {
 			int t = a % b;
@@ -22,62 +23,51 @@ public:
 		}
 		return a;
 	}
+
 	Rational operator+(Rational r) {
 		int numer = this->numer * r.denom + r.numer * this->denom;
 		int denom = this->denom * r.denom;
-		int gcd = getGCD(abs(numer), denom); // 기약분수로 만들기
-		return Rational(numer / gcd, denom / gcd); 
+		return Rational(numer, denom); 
 	}
-	Rational operator+(int n) {
-		int numer = this->numer + n * this->denom;
-		int denom = this->denom;
-		int gcd = getGCD(abs(numer), denom); // 기약분수로 만들기
-		return Rational(numer / gcd, denom / gcd);
-	}
-	Rational operator-(int n) {
-		int numer = n * this->denom - this->numer;
-		int denom = this->denom;
-		int gcd = getGCD(abs(numer), denom); // 기약분수로 만들기
-		return Rational(numer / gcd, denom / gcd);
-	}
-	Rational operator*(int n) {
-		int numer = this->numer * n;
-		int denom = this->denom;
-		int gcd = getGCD(abs(numer), denom); // 기약분수로 만들기
-		return Rational(numer / gcd, denom / gcd);
-	}
-	Rational operator/(int n) {
-		if (n == 0) throw string("분모는 0이 될수 없음");
-		int numer = this->numer;
-		int denom = this->denom * n;
-		int gcd = getGCD(abs(numer), denom); // 기약분수로 만들기
-		return Rational(numer / gcd, denom / gcd);
-	}
-
-	friend Rational operator+(int n, Rational r);
-	friend Rational operator-(int n, Rational r);
-	friend Rational operator*(int n, Rational r);
-	friend Rational operator/(int n, Rational r);
-
 	Rational operator-(Rational r) {
 		int numer = this->numer * r.denom - r.numer * this->denom;
 		int denom = this->denom * r.denom;
-		int gcd = getGCD(abs(numer), denom); // 기약분수로 만들기
-		return Rational(numer / gcd, denom / gcd);
+		return Rational(numer, denom);
 	}
 	Rational operator*(Rational r) {
 		int numer = this->numer * r.numer;
 		int denom = this->denom * r.denom;
-		int gcd = getGCD(abs(numer), denom); // 기약분수로 만들기
-		return Rational(numer / gcd, denom / gcd);
+		return Rational(numer, denom);
 	}
 	Rational operator/(Rational r) {
 		if (r.numer == 0) throw string("분모는 0이 될수 없음");
 		int numer = this->numer * r.denom;
 		int denom = this->denom * r.numer;
-		int gcd = getGCD(abs(numer), denom); // 기약분수로 만들기
-		return Rational(numer / gcd, denom / gcd);
+		return Rational(numer, denom);
 	}
+
+	Rational operator+(int n) {
+		int numer = this->numer + n * this->denom;
+		int denom = this->denom;
+		return Rational(numer, denom);
+	}
+	Rational operator-(int n) {
+		int numer = n * this->denom - this->numer;
+		int denom = this->denom;
+		return Rational(numer, denom);
+	}
+	Rational operator*(int n) {
+		int numer = this->numer * n;
+		int denom = this->denom;
+		return Rational(numer, denom);
+	}
+	Rational operator/(int n) {
+		if (n == 0) throw string("분모는 0이 될수 없음");
+		int numer = this->numer;
+		int denom = this->denom * n;
+		return Rational(numer, denom);
+	}
+
 	Rational& operator+=(Rational r){ // 연산자 재활용
 		*this = *this + r;
 		return *this;
@@ -102,6 +92,11 @@ public:
 		else
 			cout << numer << "/" << denom << endl;
 	}
+
+	friend Rational operator+(int n, Rational r);
+	friend Rational operator-(int n, Rational r);
+	friend Rational operator*(int n, Rational r);
+	friend Rational operator/(int n, Rational r);
 };
 
 // 앞에 int가 오는 것을 방지하기 위해 friend 함수로 선언

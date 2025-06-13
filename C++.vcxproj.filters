@@ -657,10 +657,10 @@
     <ClCompile Include="13-7 ☆☆☆.cpp">
       <Filter>Resource Files\Final\Week15 %28Except%29</Filter>
     </ClCompile>
-    <ClCompile Include="13-Practice_Rational.cpp">
+    <ClCompile Include="13-Practice_Rational ☆☆☆.cpp">
       <Filter>Resource Files\Final\Week15 %28Except%29</Filter>
     </ClCompile>
-    <ClCompile Include="13-Practice_WordCnt.cpp">
+    <ClCompile Include="13-Practice_WordCnt ☆☆☆.cpp">
       <Filter>Resource Files\Final\Week15 %28Except%29</Filter>
     </ClCompile>
   </ItemGroup>
